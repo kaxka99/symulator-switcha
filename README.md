@@ -69,10 +69,9 @@ Projekt symulacji sieci komputerowej z użyciem przełącznika (switch) i komput
 
 - **PC**: Klasa reprezentująca komputer w sieci.
   - `__init__(src_port, switch_port)`: Inicjalizuje komputer na zadanym porcie.
-  - `listen()`: Nasłuchuje na wiadomości i przetwarza je.
+  - `listen()`: Nasłuchuje wiadomości i je przetwarza.
   - `send_message(dst_port, message)`: Wysyła wiadomość do zadanego portu.
   - `run()`: Uruchamia wątek nasłuchujący i obsługuje wysyłanie wiadomości.
-  - 
----
-
+ 
+    
 Projekt ten jest przykładem symulacji sieci komputerowej i został stworzony w celach edukacyjnych.
